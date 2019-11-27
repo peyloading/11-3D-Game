@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/VT323-Regular.ttf" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 32
+font_data = ExtResource( 1 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_right = 241.0
+margin_bottom = 56.0
+custom_fonts/font = SubResource( 1 )
+text = "LOCATION: BASEMENT"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 780.0
+margin_right = 1021.0
+margin_bottom = 56.0
+custom_fonts/font = SubResource( 2 )
+text = "HEALTH: "
